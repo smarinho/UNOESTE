@@ -1,53 +1,58 @@
-**Nome:** 
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+Nome: 
 
 
-Preparação para o exercício:
+1 - Preparação para o exercício:
 
-Carregue o data frame *mtcars*
+Carregue o data frame *barley*
 
 ```
-data(mtcars)
+barley <- read.csv(barley)
 ```
 
 Encontre o erro em todos os códigos abaixo:
 
-Q1)
+a)
 
 ```
-Head(mtcars)
+Head(barley)
 ```
 
-Q2)
+b)
 
 ```
-str(Mtcars)
+str(Barley)
 ```
 
-Q3)
+c)
 
 ```
-dim[mtcars]
+dim[barley]
 ```
 
-Q4)
+d)
 
 ```
-nomes(mtcars)
+nomes(barley)
 ```
 
-Q5)
+e)
 
 ```
-head(mtcars, x = 10)
+head(barley, x = 10)
 ```
 
-Q6)
+f)
 
 ```
 v1 <- ("milho", "soja", "trigo", "arroz")
 ```
 
-Q7)
+g)
 
 ```
 v2 <- c("1", "2", "3", "4")
@@ -55,40 +60,40 @@ v1 + 42
 ```
 
 
-Q8)
+f)
 
 ```
 v1 <- c("milho", "soja", "trigo", "arroz"
 ```
 
 
-Q9)
+i)
 
 ```
 v3 <- c(37 31 47 25 29 41)
 ```
 
 
-Q10)
+j)
 
 ```
 v1 <- c(milho, soja, trigo, arroz)
 ```
 
-Q11)
+k)
 
 ```
 v1 <- c("milho" "soja" "trigo" "arroz")
 ```
 
-Q12)
+l)
 
 ```
 v3 <- C(33, 19, 40, 15, 27, 96)
 ```
 
 
-Q13)
+m)
 
 ```
 v1 <- c("milho", "soja", "trigo", "arroz")
@@ -96,7 +101,7 @@ v3 <- c(33, 31, 40, 25, 77, 40)
 myData <- data.frame(v1, v3)
 ```
 
-Q14)
+n)
 
 ```
 v1 <- c("milho" "soja" "trigo" "arroz")
@@ -104,15 +109,33 @@ v4 <- c(33, 31, 40, 25)
 myData <- data.frame(v1 = animal, v4 = idade)
 ```
 
-Q15)
+o)
 
 ```
 ls
 ```
 
-Q16)
+p)
 
 ```
 v1 <- c("milho", "soja", "trigo", "arroz")
 sum(v1)
+```
+
+
+2 - Use um arquivo *.csv* de seu interesse. 
+
+Carregue seu arquivo *.csv* no Rstudio com o nome de **data**.
+
+
+a) Qual as dimensão do seu arquivo? dica: *dim*
+
+```
+
+```
+
+b) Qual(is) tipo(s) de dados existe em seu arquivo? dica: *str*
+
+```
+
 ```
