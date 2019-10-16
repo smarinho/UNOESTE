@@ -9,7 +9,7 @@ Carregue o data frame *barley*
 barley <- read.csv(barley)
 ```
 
-Encontre o erro em todos os códigos abaixo:
+Encontre o erro (em todos os) - #substituir por "nos" - códigos abaixo:
 
 a)
 
@@ -120,16 +120,16 @@ sum(v1)
 
 2 - Use um arquivo *.csv* de seu interesse. 
 
-Carregue seu arquivo *.csv* no Rstudio com o nome de **data**.
+Carregue seu arquivo *.csv* no Rstudio com o nome (de)- # "de" desnecessario - **data**.
 
 
-a) Qual as dimensão do seu arquivo? dica: *dim*
-
-```
+a) Qual a(s) - #remover o "s" - dimensão do seu arquivo? dica: *dim*
 
 ```
 
-b) Qual(is) tipo(s) de dados existe em seu arquivo? dica: *str*
+```
+
+b) Qual(is) tipo(s) de dados existe - #incluir "(m)" em existe(m) - em seu arquivo? dica: *str*
 
 ```
 
